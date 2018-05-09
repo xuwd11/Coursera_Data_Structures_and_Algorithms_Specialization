@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{dc04b5ce-112f-4e0b-974b-382b4f98b0a0}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>Week5_lcs3.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+    <InterpreterVersion />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+    <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="test.py" />
+    <Compile Include="Week1_APlusB.py" />
+    <Compile Include="Week1_max_pairwise_product.py" />
+    <Compile Include="Week2\fibonacci\fib.py" />
+    <Compile Include="Week2\fibonacci_huge\fibonacci_huge.py" />
+    <Compile Include="Week2\fibonacci_last_digit\fibonacci_last_digit.py" />
+    <Compile Include="Week2\gcd\gcd.py" />
+    <Compile Include="Week2\lcm\lcm.py" />
+    <Compile Include="Week2_fib.py" />
+    <Compile Include="Week2_fibonacci_huge.py" />
+    <Compile Include="Week2_fibonacci_last_digit.py" />
+    <Compile Include="Week2_gcd.py" />
+    <Compile Include="Week2_lcm.py" />
+    <Compile Include="Week3_02_greedy_algorithms_starter_files\change\change.py" />
+    <Compile Include="Week3_02_greedy_algorithms_starter_files\covering_segments\covering_segments.py" />
+    <Compile Include="Week3_02_greedy_algorithms_starter_files\different_summands\different_summands.py" />
+    <Compile Include="Week3_02_greedy_algorithms_starter_files\dot_product\dot_product.py" />
+    <Compile Include="Week3_02_greedy_algorithms_starter_files\fractional_knapsack\fractional_knapsack.py" />
+    <Compile Include="Week3_change.py" />
+    <Compile Include="Week3_covering_segments.py" />
+    <Compile Include="Week3_different_summands.py" />
+    <Compile Include="Week3_dot_product.py" />
+    <Compile Include="Week3_fractional_knapsack.py" />
+    <Compile Include="Week4_3_divideandconquer_starter_files\binary_search\binary_search.py" />
+    <Compile Include="Week4_3_divideandconquer_starter_files\inversions\inversions.py" />
+    <Compile Include="Week4_3_divideandconquer_starter_files\majority_element\majority_element.py" />
+    <Compile Include="Week4_3_divideandconquer_starter_files\points_and_segments\points_and_segments.py" />
+    <Compile Include="Week4_3_divideandconquer_starter_files\sorting\sorting.py" />
+    <Compile Include="Week4_binary_search.py" />
+    <Compile Include="Week4_inversions.py" />
+    <Compile Include="Week4_majority_element.py" />
+    <Compile Include="Week4_points_and_segments.py" />
+    <Compile Include="Week4_sorting.py" />
+    <Compile Include="Week5_4_dynprog_starter_files\edit_distance\edit_distance.py" />
+    <Compile Include="Week5_4_dynprog_starter_files\knapsack\knapsack.py" />
+    <Compile Include="Week5_4_dynprog_starter_files\lcs3\lcs3.py" />
+    <Compile Include="Week5_4_dynprog_starter_files\placing_parentheses\placing_parentheses.py" />
+    <Compile Include="Week5_4_dynprog_starter_files\primitive_calculator\primitive_calculator.py" />
+    <Compile Include="Week5_edit_distance.py" />
+    <Compile Include="Week5_knapsack.py" />
+    <Compile Include="Week5_lcs3.py" />
+    <Compile Include="Week5_placing_parentheses.py" />
+    <Compile Include="Week5_primitive_calculator.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Week2\" />
+    <Folder Include="Week2\fibonacci" />
+    <Folder Include="Week2\fibonacci_huge" />
+    <Folder Include="Week2\fibonacci_last_digit" />
+    <Folder Include="Week2\gcd" />
+    <Folder Include="Week2\lcm" />
+    <Folder Include="Week3_02_greedy_algorithms_starter_files\" />
+    <Folder Include="Week3_02_greedy_algorithms_starter_files\change" />
+    <Folder Include="Week3_02_greedy_algorithms_starter_files\covering_segments" />
+    <Folder Include="Week3_02_greedy_algorithms_starter_files\different_summands" />
+    <Folder Include="Week3_02_greedy_algorithms_starter_files\dot_product" />
+    <Folder Include="Week3_02_greedy_algorithms_starter_files\fractional_knapsack" />
+    <Folder Include="Week4_3_divideandconquer_starter_files\" />
+    <Folder Include="Week4_3_divideandconquer_starter_files\binary_search" />
+    <Folder Include="Week4_3_divideandconquer_starter_files\inversions" />
+    <Folder Include="Week4_3_divideandconquer_starter_files\majority_element" />
+    <Folder Include="Week4_3_divideandconquer_starter_files\points_and_segments" />
+    <Folder Include="Week4_3_divideandconquer_starter_files\sorting" />
+    <Folder Include="Week5_4_dynprog_starter_files\" />
+    <Folder Include="Week5_4_dynprog_starter_files\edit_distance" />
+    <Folder Include="Week5_4_dynprog_starter_files\knapsack" />
+    <Folder Include="Week5_4_dynprog_starter_files\lcs3" />
+    <Folder Include="Week5_4_dynprog_starter_files\placing_parentheses" />
+    <Folder Include="Week5_4_dynprog_starter_files\primitive_calculator" />
+  </ItemGroup>
+  <Import Project="$(PtvsTargetsFile)" Condition="Exists($(PtvsTargetsFile))" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="!Exists($(PtvsTargetsFile))" />
+</Project>

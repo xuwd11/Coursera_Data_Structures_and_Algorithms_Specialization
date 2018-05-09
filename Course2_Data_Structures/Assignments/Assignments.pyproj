@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{f3770ba5-7dc4-46f5-af51-b8c0efae6a26}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>PA3_hash_chains.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+    <InterpreterVersion />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+    <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="PA1_check_brackets.py" />
+    <Compile Include="PA1_process_packages.py" />
+    <Compile Include="PA1_tree_height.py" />
+    <Compile Include="PA2_build_heap.py" />
+    <Compile Include="PA2_job_queue.py" />
+    <Compile Include="PA2_merging_tables.py" />
+    <Compile Include="PA3_hash_chains.py" />
+    <Compile Include="PA3_hash_substring.py" />
+    <Compile Include="PA3_phone_book.py" />
+    <Compile Include="PA4_rope.py" />
+    <Compile Include="PA4_set_range_sum.py" />
+    <Compile Include="PA4_tree_orders.py" />
+    <Compile Include="Starters_PA1\check_brackets_in_code\check_brackets.py" />
+    <Compile Include="Starters_PA1\network_packet_processing_simulation\process_packages.py" />
+    <Compile Include="Starters_PA1\tree_height\tree-height.py" />
+    <Compile Include="Starters_PA2\job_queue\job_queue.py" />
+    <Compile Include="Starters_PA2\make_heap\build_heap.py" />
+    <Compile Include="Starters_PA2\merging_tables\merging_tables.py" />
+    <Compile Include="Starters_PA3\hash_chains\hash_chains.py" />
+    <Compile Include="Starters_PA3\hash_substring\hash_substring.py" />
+    <Compile Include="Starters_PA3\phone_book\phone_book.py" />
+    <Compile Include="Starters_PA4\rope\rope.py" />
+    <Compile Include="Starters_PA4\set_range_sum\set_range_sum.py" />
+    <Compile Include="Starters_PA4\tree_orders\tree-orders.py" />
+    <Compile Include="_test.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Starters_PA1\" />
+    <Folder Include="Starters_PA1\check_brackets_in_code" />
+    <Folder Include="Starters_PA1\network_packet_processing_simulation" />
+    <Folder Include="Starters_PA1\tree_height" />
+    <Folder Include="Starters_PA2\" />
+    <Folder Include="Starters_PA2\job_queue" />
+    <Folder Include="Starters_PA2\make_heap" />
+    <Folder Include="Starters_PA2\merging_tables" />
+    <Folder Include="Starters_PA3\" />
+    <Folder Include="Starters_PA3\hash_chains" />
+    <Folder Include="Starters_PA3\hash_substring" />
+    <Folder Include="Starters_PA3\phone_book" />
+    <Folder Include="Starters_PA4\" />
+    <Folder Include="Starters_PA4\rope" />
+    <Folder Include="Starters_PA4\set_range_sum" />
+    <Folder Include="Starters_PA4\tree_orders" />
+  </ItemGroup>
+  <Import Project="$(PtvsTargetsFile)" Condition="Exists($(PtvsTargetsFile))" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="!Exists($(PtvsTargetsFile))" />
+</Project>
